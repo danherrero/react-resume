@@ -1,0 +1,29 @@
+[{
+
+	"id": 1,
+	"name": "Lehigh University",
+	"location": "Bethlehem, PA",
+	"titles": [["Senior Web Development Specialist", "April 2019 – Present"], ["Web Development Specialist", "May 2014 – April 2019"]],
+	"responsibilities": [
+	  "Responsible for the day-to-day management and development of a Drupal-based content management system",
+	  "Collaborates with design and marketing teams to implement new web pages and updates to existing web pages on the university website",
+	  "Manually tests web pages for web accessibility issues and remediates any issues found",
+	  "Utilizes Google Analytics to analyze and report on the utilization of web pages",
+	  "Performs trend research and competitive benchmarking studies",
+	  "Provides training, account administration, and technical assistance for the content management system",
+	  "Creates project schedules, goal documents, wireframes, and other documents as part of UX/UI planning"
+	]
+},
+{
+
+	"id": 2,
+	"name": "Diocese of Allentown",
+	"location": "Allentown, PA",
+	"titles": [["Web Developer", "September 2011 – May 2014"]],
+	"responsibilities": [ 
+	  "Developed and managed a website built upon a Concrete5-based content management system",
+	  "Collaborated with leaders in Stewardship & Development to develop an online giving platform",
+	  "Provided training and technical assistance for users of the content management system",
+	  "Managed social media accounts for the organization"
+	]
+}]
