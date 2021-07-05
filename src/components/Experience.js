@@ -2,33 +2,30 @@ import React, { Component } from 'react'
 
 class Experience extends Component {
 
-render() {
-  let experience = require('./data/experience.json');
-  return (
-  	<div>
+    render() {
+        let experience = require('./data/experience.json');
+        return (
+            <section className="experience">
   		<h2>Work Experience</h2>
-  		{experience.map(item => (
-  			<div>
+
+  		{experience.map((item, i) => (
+  			<div key={i}>
   				<h3>{item.name}</h3>
-  				<p className="location">{item.location}</p>
+  				<p>{item.location}</p>
   			
-  				{item.titles.map(title => (
-      				<div>
-        	    		<h3>{title[0]} | {title[1]}</h3>
-      		  		</div>
+  				{item.titles.map((title, i) => (
+        	    		<h4 key={i}>{title[0]} ({title[1]})</h4>
     			))}
-
-    			{item.responsibilities.map(responsibility => (
-      				<ul>
-        	    		<li>{responsibility}</li>
-      		  		</ul>
+    			<ul>
+    			{item.responsibilities.map((responsibility, i) => (
+        	    	<li key={i}>{responsibility}</li>
     			))}
-
+				</ul>
     		</div>
   		))}
-    </div>
-  )
- }
+    </section>
+        )
+    }
 }
 
 export default Experience
