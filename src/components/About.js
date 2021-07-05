@@ -7,7 +7,9 @@ render() {
   return (
      <section className="about">
      	<h2>About Me</h2>
-     	<p>My name is Dan Herrero.</p>
+     	<div>
+     	<p>My name is Dan Herrero, and I am a web developer based in the Lehigh Valley of Pennsylvania.</p>
+     	</div>
      </section>
   )
  }

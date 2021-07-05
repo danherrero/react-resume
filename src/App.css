@@ -4,18 +4,27 @@ body {
   background: #FAF9F9;
 }
 
+p, ol, ul, dl, table { margin: 0 0 2.5rem 0; }
+
 h1 {
-  color: #555B6E;
-  font-size: 3.5rem;
+  color: #345995;
+  font-size: 4rem;
   margin-bottom: 0;
 }
 
 h2 { 
   color: #5A8784; 
+  margin: 0 0 1rem 0;
+  font-size: 2.5rem;
+}
+
+h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .Resume {
@@ -34,23 +43,44 @@ h4 {
 }
 
 .Resume > section {
-  border-bottom: 1px solid #555B6E;
+  padding: 1rem 0 1rem 0;
 }
 
-.Resume section.experience > div h3 {
+.Resume > header + section {
+  padding-top: 2rem;
+}
+
+.Resume > section > * {
+  max-width: 800px;
+  width: 100%;
+}
+
+.Resume > section::after {
+    content: "";
+    border-bottom: 2px solid #e3dede;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.Resume > section:last-child::after {
+  border-bottom: 0px;
+}
+
+.Resume section > div h3 {
   margin-bottom: 0;
 }
 
-.Resume section.experience > div h3 + p {
+.Resume section > div h3 + p {
   font-size: 1.2rem;
   margin: 0 0 0.75rem 0;
 
 }
 
-.Resume section.experience > div h4 {
+.Resume section > div h4 {
   margin: 0 0 0.3rem 0;
 }
 
-.Resume section.experience > div ul {
-  margin: 0.5rem  0 1.5rem 0;
+.Resume section > div ul {
+  margin-top: 0.5rem;
 }
