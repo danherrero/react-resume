@@ -26,4 +26,17 @@
 	  "Provided training and technical assistance for users of the content management system",
 	  "Managed social media accounts for the organization"
 	]
+},
+{
+
+	"id": 3,
+	"name": "Freelancer",
+	"location": "Allentown, PA",
+	"titles": [["Web Developer", "January 2009 – September 2011"]],
+	"responsibilities": [ 
+	  "Utilized HTML, CSS, Javascript, and PHP to develop websites for clients",
+	  "Collaborated with leaders in Stewardship & Development to develop an online giving platform",
+	  "Built and supported custom Wordpress themes and plugins",
+	  "Provided technical support via email and phone for clients"
+	]
 }]

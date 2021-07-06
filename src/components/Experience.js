@@ -6,15 +6,15 @@ class Experience extends Component {
         let experience = require('./data/experience.json');
         return (
             <section className="experience">
-  		<h2>Work Experience</h2>
-
+  		<h2><span>Work Experience</span></h2>
+  		<div>
   		{experience.map((item, i) => (
   			<div key={i}>
   				<h3>{item.name}</h3>
   				<p>{item.location}</p>
   			
   				{item.titles.map((title, i) => (
-        	    		<h4 key={i}>{title[0]} ({title[1]})</h4>
+        	    		<h4 key={i}>{title[0]} <span className="date-range">({title[1]})</span></h4>
     			))}
     			<ul>
     			{item.responsibilities.map((responsibility, i) => (
@@ -23,6 +23,7 @@ class Experience extends Component {
 				</ul>
     		</div>
   		))}
+  		</div>
     </section>
         )
     }
