@@ -1,19 +1,19 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 
-class Education extends Component {
+const Education = () => {
 
-    render() {
-        return (
+    return (
             <section className="education">
-     	<h2><span>Education</span></h2>
-     	     <div>
-     	<h3>Bachelor of Science in Media Communications &amp; Technology</h3>
-     	<p>East Stroudsburg University, PA<br />2005-2009</p>
-     	</div>
+        <h2><span>Education</span></h2>
+             <div>
+        <h3>Bachelor of Science in Media Communications &amp; Technology</h3>
+        <p>East Stroudsburg University, PA<br />2005-2009</p>
+        </div>
      </section>
         )
-    }
+
 }
+
 
 export default Education

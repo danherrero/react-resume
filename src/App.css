@@ -12,6 +12,7 @@ ol,
 ul,
 dl,
 table {
+    font-size: 1.2rem;
     margin: 0 0 2.5rem 0;
 }
 
@@ -95,9 +96,12 @@ h4 {
     margin-bottom: 0;
 }
 
-.Resume section>div h3+p {
-    font-size: 1.2rem;
+.Resume section.experience>div h3+p {
     margin: 0 0 0.75rem 0;
+}
+
+.Resume section>div h3+ul li {
+    font-size: 1.2rem;
 }
 
 .Resume section>div h4 {
@@ -116,8 +120,73 @@ h4 {
     margin-bottom: 1.5rem;
 }
 
+.Resume>section.skills div ul {
+    column-count: 1;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
 .Resume section>div .date-range {
     display: block;
+}
+
+
+/* Accordion */ 
+
+.accordion {
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #D2DDEF;
+  align-items: center;
+}
+
+.accordion-item.closed .accordion-title {
+    border-bottom: 2px solid #F5F1ED;
+}
+
+.accordion-title:hover {
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-title > div {
+    font-family: 'PT Serif', serif;
+    font-size: 1.5rem;
+}
+
+.accordion-content {
+    background-color: #F0F4FA;
+}
+
+.accordion-content p {
+    margin-bottom: 1rem;
+}
+
+/* Icon colors */
+.fa-drupal { color: #0678BE; }
+.fa-html5 { color: #f06529; }
+.fa-wordpress { color: #444140; }
+.fa-react { color: #61DBFB; }
+
+@media only screen and (min-width: 675px) {
+    .Resume>section.about>div {
+        display: grid;
+        grid-template-columns: 7fr 3fr;
+        column-gap: 2rem;
+    }
+    .Resume>section.about>div img {
+        border-radius: 50%;
+    }
 }
 
 @media only screen and (min-width: 980px) {
@@ -173,16 +242,6 @@ h4 {
         padding-left: 2rem;
     }
 
-    .Resume>section.about>div {
-        display: grid;
-        grid-template-columns: 7fr 3fr;
-        column-gap: 2rem;
-    }
-
-    .Resume>section.about>div img {
-        border-radius: 50%;
-    }
-
     .Resume>section.about p {
         margin-bottom: 2.5rem;
     }
@@ -193,5 +252,9 @@ h4 {
 
     .Resume section>div .date-range {
         display: inline-block;
+    }
+    .Resume>section.skills div ul {
+        column-count: 2;
+        column-gap: 0;
     }
 }

@@ -1,0 +1,50 @@
+[{
+
+	"id": 1,
+	"title": "COVID-19 Information Center",
+	"imageName": "covid-info-center.jpg",
+	"type": "drupal",
+	"content": "<p>The <a href=\"https://coronavirus.lehigh.edu\">COVID-19 Information Center</a> is a Drupal 8 website with the purpose of communicating important updates about the COVID-19 pandemic to the Lehigh University community.</p><p>My role in the development of this website was in both site architecture and theming. One unique aspect of this website's architecture was the creation of a custom block type for FAQs which are used extensively throughout the website. FAQs are displayed on a main FAQ page through a View with exposed filters as well as on many other pages of the website depending on taxonomy. I also developed migrations for this website to periodically import news stories from a feed to create the Latest Updates page of the website.</p>",
+	"link": "https://coronavirus.lehigh.edu",
+	"status": 1
+},
+{
+
+	"id": 2,
+	"title": "GO: The Campaign for Lehigh",
+	"imageName": "go-campaign.jpg",
+	"type": "drupal",
+	"content": "<p>The <a href=\"https://gocampaign.lehigh.edu/\">GO: The Campaign for Lehigh website</a> is built in Drupal 8 and was created to support Lehigh University's fundraising and engagement effort which began in 2018.</p><p>I was the lead developer on this launch of this website and worked extensively on the website's theme.</p>",
+	"link": "https://gocampaign.lehigh.edu",
+	"status": 1
+},
+{
+
+	"id": 3,
+	"title": "Lehigh University News Center",
+	"imageName": "news.jpg",
+	"type": "drupal",
+	"content": "<p>The <a href=\"https://www2.lehigh.edu/news\">Lehigh University News Center</a> is a Drupal 8 website built to support hundreds of news articles published each year.</p><p>I was the lead developer on this website and my work included site architecture and theming the main landing pages of the news center as well as the news article template. As far as site architecture, one unique aspect of this project was the development of the content type used to create news articles. The news article content type utilizes a number of custom Paragraph Types (thanks to the Paragraphs module) to allow news editors the flexibility to control the look and feel of each individual article.</p>",
+	"link": "https://www2.lehigh.edu/news",
+	"status": 1	
+},
+{
+
+	"id": 4,
+	"title": "Lehigh University Student Blog",
+	"imageName": "blog.jpg",
+	"type": "drupal",
+	"content": "<p>The <a href=\"https://blog.lehigh.edu\">Lehigh University Student Blog</a> is a Drupal 8 website with the purpose of publishing student-written blog entries.</p><p>I was the lead developer on this website and my work included site architecture and theming.</p>",
+	"link": "https://blog.lehigh.edu",
+	"status": 1
+},
+{
+
+	"id": 5,
+	"title": "Christa Neu Kids",
+	"imageName": "cneu.jpg",
+	"type": "html5",
+	"content": "<p><a href=\"https://christaneukids.com\">ChristaNeuKids.com</a> is static site built for a local photographer to showcase examples of her family and kid photography. The website utilizes a flexbox grid layout to display a selection of photos. I was the sole developer on this project.</p>",
+	"link": "https://www.christaneukids.com",
+	"status": 1	
+}]
