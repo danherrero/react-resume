@@ -14,7 +14,6 @@ return (
 		    <li>PHP</li>
 		    <li>MySQL</li>
 		    <li>Drupal</li>
-		    <li>Wordpress</li>
 		    <li>Bootstrap framework</li>
         </ul>
         <h3>Currently Learning:</h3>
