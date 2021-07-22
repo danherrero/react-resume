@@ -11,11 +11,18 @@ return (
 		    <li>HTML</li>
 		    <li>CSS</li>
 		    <li>JavaScript / jQuery</li>
-            <li>Drupal (site building and onfiguration, theming, migrations)</li>
+            <li>Drupal</li>
 		    <li>PHP</li>
 		    <li>MySQL</li>
             <li>Web accessibility</li>
 		    <li>Bootstrap framework</li>
+        </ul>
+        <h3>Drupal-specific Skills:</h3>
+        <ul>
+            <li>Site building</li>
+            <li>Site configuration</li>
+            <li>Theming</li>
+            <li>Migrations</li>
         </ul>
         <h3>Currently Learning:</h3>
         <ul>
