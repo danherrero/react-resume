@@ -11,9 +11,10 @@ return (
 		    <li>HTML</li>
 		    <li>CSS</li>
 		    <li>JavaScript / jQuery</li>
+            <li>Drupal (site building and onfiguration, theming, migrations)</li>
 		    <li>PHP</li>
 		    <li>MySQL</li>
-		    <li>Drupal</li>
+            <li>Web accessibility</li>
 		    <li>Bootstrap framework</li>
         </ul>
         <h3>Currently Learning:</h3>
