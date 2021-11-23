@@ -1,9 +1,16 @@
-[{
+[
+{
+	"id": 0,
+	"name": "Electric Citizen",
+	"titles": [["Front end developer", "September 2021 - Present"]]
+
+},
+{
 
 	"id": 1,
 	"name": "Lehigh University",
 	"location": "Bethlehem, PA",
-	"titles": [["Senior Web Development Specialist", "April 2019 – Present"], ["Web Development Specialist", "May 2014 – April 2019"]],
+	"titles": [["Senior Web Development Specialist", "April 2019 – September 2021"], ["Web Development Specialist", "May 2014 – April 2019"]],
 	"responsibilities": [
 	  "Responsible for the day-to-day management and development of a Drupal-based content management system",
 	  "Collaborates with design and marketing teams to implement new web pages and updates to existing web pages on the university website",
